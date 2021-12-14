@@ -1,0 +1,23 @@
+{
+  "name": "tdd-lab-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "piglatin-args.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimomo14/TDD-LAB-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minimomo14/TDD-LAB-1/issues"
+  },
+  "homepage": "https://github.com/minimomo14/TDD-LAB-1#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
