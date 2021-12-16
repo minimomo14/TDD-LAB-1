@@ -1,4 +1,3 @@
-
 console.log("hello");
 
 const translate = require("./piglatin.js")
@@ -19,7 +18,6 @@ describe("translate", function(){
     test("look for U in the word upper return upperway", function (){
         expect(translate("Upper")).toEqual("upperway");
     });
-
 //move first letter to the end and add -ay
     test("look for H in the word Hello return ellohay", function (){
         expect(translate("Hello")).toEqual("ellohay");
@@ -28,5 +26,14 @@ describe("translate", function(){
     test("2 consonentof word Fruit  => uitfray" , function (){
         expect(translate("fruit")).toEqual("uitfray");
     });
+// 3 consonent 
+    test("3 consonent of word scrub  => ubscray" , function (){
+        expect(translate("scrub")).toEqual("ubscray");
+    });
+//check for lower case conversion
+test("check for lower cases conversion of word BIG return igbay", function (){
+    expect(translate("BIG")).toEqual("igbay");
+});
+    
 });
 

@@ -16,8 +16,8 @@ const translate = (wordInput) => {
 }
     //console.log(translate("Apple"));
     //console.log(translate("Easy"));
-    console.log(translate("Hello"));
-    console.log(translate("Fruit"));
+    //console.log(translate("Hello"));
+    //console.log(translate("Fruit"));
   
 
 module.exports = translate;
